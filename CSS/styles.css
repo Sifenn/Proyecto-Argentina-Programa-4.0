@@ -1,3 +1,115 @@
+*{ 
+    padding: 0px;
+    margin: 0;
+
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+}
+
+.propiedadesParrafo{
+    margin: 0;
+    padding: 0 0;
+}
+
+h1{
+    padding: 0;
+}
+div.col{
+    padding: 0 0 0 0;
+}
+div.row{
+    padding: 0 0 0 0;
+}
+
+@media (min-width: 1339px){
+    #imagen-background-p{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        object-fit:cover;
+    }
+    .header{
+        padding: 5px 64px 5px 64px;
+        
+    }
+    .nav-link{
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 50px;
+        color: white;
+    }
+    .container-fluid{
+        padding: 0px 0 0 0;
+    }
+
+    .titular{
+        position: relative;
+    }
+    #propiedadParrafoHola{
+        left: 0px;
+        top: 0px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;  
+    }
+    .propiedadesTitular{
+        margin-top: 160px;
+    }
+    .propiedadesh1{
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 64px;
+        color: #FFFFFF;
+        padding: 5px 0px 0 0px ;
+        margin: 0;
+    }
+    #propiedadParrafoDM{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 300px;
+        height: auto;
+        left: 0px;
+        background: #121214;
+        border-radius: 3px;
+        padding: 3px 12px ;
+        margin-top: 10px;
+    }
+
+    #propiedadParrafoDescriptivo{
+        left: 0px;
+        top: 0px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 125%;
+        letter-spacing: 0.165em;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .propiedadesPerfil{
+        float: right;
+        width: 400px;
+        height: auto;
+        left: 0px;
+        top: 0px;
+        object-fit:cover;
+        padding: 0;
+    }
+    .propiedadesPerfil .row img{
+        border-radius: 30px;
+    }
+}
+
+
+
+
 p {
     color: aqua;
 }
