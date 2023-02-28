@@ -13,80 +13,306 @@
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
 </head>
 <body>
-            <div id="imagen-background-p">
-                <img src="CSS\Imagenes\glx-background.jpg" class="img-fluid" alt="Background.galaxia">
-           </div>
-    <div class="header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link">Educación</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                      </ul>
+  <header>
+    <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SobreMi">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Educación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="text-white">
+      <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-2">
+            <div class="col">
+              <div class="propiedadesTitular">
+                  <div class="row">
+                        <p class="propiedadesParrafo" id="propiedadParrafoHola">
+                            ¡Hola!
+                        </p>
+                  </div>
+                  <div class="row">
+                        <h1 class="propiedadesh1">Soy Esteban</h1>
+                  </div>
+                  <div class="row">
+                        <p class="propiedadesParrafo" id="propiedadParrafoDM">
+                            DISEÑADOR MULTIMEDIAL
+                        </p>
+                    </div>
+                  <div class="row">
+                        <p class="propiedadesParrafo" id="propiedadParrafoDescriptivo">
+                            Soy un estudiante de Diseño UX/UI creativo, <br>
+                             dedicado a resolver problemas y necesidades de <br>
+                              los usuarios a través de productos digitales.
+                        </p>
+                  </div>
               </div>
             </div>
-          </nav>
+            <div class="col">
+              <div class="propiedadesPerfil">
+                  <div class="row">
+                      <img src="CSS/perfil-1.jpg" class="img-fluid" alt="FotoPerfilEsteban">
+                  </div>
+                    <div class="borde-derecho">
+                      
+                    </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt">
+    <div class="container">
+      <!--Section: Content-->
+      <section id="SobreMi">
+        <div class="row justify-content-center">
+          <div class="col-xl-4">
+            <div class="imagen-2">
+              <img src="CSS/perfil-2.jpg" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="col-xl-6">
+            <h2><strong>Sobre Mí</strong></h2>
+            <div class="separador">
+            </div>
+            <p class="text-sobremi-1">
+              Estudio Diseño Multimedial en la UNLP, actualmente estoy en 5to año de la carrera desarrollando mi tesina. <br> <br>
+              Me especializo en el diseño UI/UX de productos digitales, también me interesa  el diseño de videojuegos y tengo 
+              experiencia en identidad de marcas, banners, flyers, logotipos, etc...
+            </p>
+            <h4>Valores personales</h4>
+            <p class="text-sobremi-2">
+              Soy una persona acostumbrada a trabajar en equipos que se concidera con ciertas características y valores:
+            </p>
+            <div class="row justify-content-center" >
+              <div class="col-xl-3" class="text-sobremi-3">
+                <p>Flexible</p>
+                <p>Optimista</p>
+              </div>
+              <div class="col-xl-3" class="text-sobremi-3">
+                <p>Cooperativo</p>
+                <p>Creativo</p>
+              </div>
+              <div class="col-xl-3" class="text-sobremi-3">
+                <p>Autoexigente</p>
+                <p>Responsable</p>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+      <section id="Educacion">
+        <div class="row justify-content-center">
+            <h2>Educación</h2>
+            <div class="separador" >
+            </div>
+            <div class="row-col-xl-1">
+                <img class="timeline-imagen" src="CSS/timeline-texto.png" alt="a">
+            </div>
+            <div class="row">
+              <div class="col-xl-5">
+                <div class="row">
+                  <h3 class="h3-propiedades">Idiomas</h3>
+                </div>
+                <div class="row">
+                  <p class="texto-barra-spanish">Español</p>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="barra1"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="texto-barra-spanish">Inglés</p>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="barra-fondo">
+                        <div class="barra2"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="texto-barra-spanish">Francés</p>
+                  <div class="row">
+                    <div class="col-xl-10">
+                      <div class="barra-fondo">
+                        <div class="barra3"></div>
+                      </div>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-7">
+                <h3 class="h3-propiedades"">Habilidades</h3>
+                <div class="row">
+                  <div class="col-xl-3">
+                    <img src="CSS/figma-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/adobexd-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/miro-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/ai-barra.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-3">
+                    <img src="CSS/ps-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/pr-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/ae-barra.png" alt="">
+                  </div>
+                  <div class="col-xl-3">
+                    <img src="CSS/proccessing-barra.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+            <!--Section: Content-->
+      <section id="Proyectos">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+ 
+
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="py-4 text-center">
+      <a role="button" class="btn btn-primary btn-lg m-2"
+        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
+        Learn Bootstrap 5
+      </a>
+      <a role="button" class="btn btn-primary btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank">
+        Download MDB UI KIT
+      </a>
     </div>
 
-    <div class="titular">
-        <div class="container center">
-            <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-2">
-                <div class="col">
-                    <div class="propiedadesTitular">
-                        <div class="row">
-                            <p class="propiedadesParrafo" id="propiedadParrafoHola">
-                                ¡Hola!
-                            </p>
-                        </div>
-                        <div class="row">
-                            <h1 class="propiedadesh1">Soy Esteban</h1>
-                        </div>
-                        <div class="row">
-                            <p class="propiedadesParrafo" id="propiedadParrafoDM">
-                                DISEÑADOR MULTIMEDIAL
-                            </p>
-                        </div>
-                        <div class="row">
-                            <p class="propiedadesParrafo" id="propiedadParrafoDescriptivo">
-                                Soy un estudiante de Diseño UX/UI creativo, <br>
-                                 dedicado a resolver problemas y necesidades de <br>
-                                  los usuarios a través de productos digitales.
-                            </p>
-                        </div>
-                    </div>
+    <hr class="m-0" />
 
-                </div>
-                <div class="col">
-                    <div class="propiedadesPerfil">
-                        <div class="row">
-                            <img src="CSS/Imagenes/perfil-1.jpg" alt="FotoPerfilEsteban">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="text-center py-4 align-items-center">
+      <p>Follow MDB on social media</p>
+      <a href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" class="btn btn-primary m-1" role="button"
+        rel="nofollow" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/mdbootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/MDBootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/mdbootstrap/mdb-ui-kit" class="btn btn-primary m-1" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
 
-        </div>
-        </div>
-
-      </div>
-    <p>Hola Mundo!</p>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="/prueba.js"></script>
 </body>

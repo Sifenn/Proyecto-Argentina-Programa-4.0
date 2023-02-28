@@ -1,70 +1,60 @@
-*{ 
-    padding: 0px;
-    margin: 0;
 
-}
+#intro {
+    background-image: url("mt-background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
 
-.body{
-    font-family: 'Lato', sans-serif;
-}
-
-.propiedadesParrafo{
-    margin: 0;
-    padding: 0 0;
-}
-
-h1{
-    padding: 0;
-}
-div.col{
-    padding: 0 0 0 0;
-}
-div.row{
-    padding: 0 0 0 0;
-}
-
-@media (min-width: 1339px){
-    #imagen-background-p{
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        object-fit:cover;
+  @media (min-width: 1339px) {
+    #intro {
+      margin-top: -66;
     }
-    .header{
-        padding: 5px 64px 5px 64px;
+    .navbar .container-fluid{
+        padding: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: var(--bs-nav-link-padding-0) var(--bs-nav-link-padding-0);
+        color: #fff !important;
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 18px;
+        padding-right: 60px;
+    }
+    nav{
+        padding: 0px;
+
+    }
+    .navbar{
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0rem;
+        z-index: 2000;
+        background-color: #121214;
+        padding: 14px 64px;
         
     }
-    .nav-link{
-        font-family: 'Lato', sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-        margin-right: 50px;
-        color: white;
+    div.col{
+        padding: 0;
     }
-    .container-fluid{
-        padding: 0px 0 0 0;
-    }
-
-    .titular{
-        position: relative;
+    .navbar-collapse{
+        z-index: 2000;
     }
     #propiedadParrafoHola{
-        left: 0px;
-        top: 0px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-size: 36px;
-        line-height: 44px;
-        color: #FFFFFF;  
+            left: 0px;
+            top: 0px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;  
     }
     .propiedadesTitular{
-        margin-top: 160px;
+            margin-top: 25vh;
+            margin-left: 10vw;
     }
     .propiedadesh1{
         font-family: 'Montserrat';
         font-weight: 800;
         font-size: 64px;
-        color: #FFFFFF;
         padding: 5px 0px 0 0px ;
         margin: 0;
     }
@@ -72,7 +62,6 @@ div.row{
         font-family: 'Montserrat';
         font-style: normal;
         font-size: 20px;
-        color: #FFFFFF;
         width: 300px;
         height: auto;
         left: 0px;
@@ -81,7 +70,7 @@ div.row{
         padding: 3px 12px ;
         margin-top: 10px;
     }
-
+    
     #propiedadParrafoDescriptivo{
         left: 0px;
         top: 0px;
@@ -90,26 +79,172 @@ div.row{
         font-size: 18px;
         line-height: 125%;
         letter-spacing: 0.165em;
-        color: #FFFFFF;
         margin-top: 20px;
     }
     .propiedadesPerfil{
         float: right;
-        width: 400px;
-        height: auto;
         left: 0px;
         top: 0px;
-        object-fit:cover;
         padding: 0;
+        margin-right: 10vw;
+        margin-top: 20vh;
     }
     .propiedadesPerfil .row img{
-        border-radius: 30px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 0;
     }
-}
-
-
-
-
-p {
-    color: aqua;
+    .borde-derecho{
+        padding: 0;
+        height: inherit;
+        border: 5px solid #E0B3AD;
+        border-radius: 3px;
+        margin: 14px 0 0 14px;
+        
+    }
+    .mt{
+        margin: 0px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-color: #121214;
+    }
+    #SobreMi{
+        margin-bottom: 400px;
+        padding-top: 200px;
+    }
+    #SobreMi > div > div.col-xl-4 > div > img{
+        border-radius: 10px;
+    }
+    h2{
+        color: #fff;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 48px;
+        padding: 5px 0px 0 0px ;
+        margin: 0;
+    }
+    .text-sobremi-1{
+        color: #fff;
+    }
+    .separador{
+        margin-bottom: 25px;
+        height: 7px;
+        width: 60px;
+        background-color: #E0B3AD;
+        margin-top: 3px;
+    }
+    p.text-sobremi-1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    }
+    h4{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    }
+    p.text-sobremi-2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: justify;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        }
+        #SobreMi > div > div.col-xl-6 > div.row.justify-content-center{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        letter-spacing: 0.1em;
+    }
+    #Educacion > div.row.justify-content-center{
+        color: #fff;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 48px;
+        padding: 5px 0px 0 0px ;
+        margin: 0;
+        text-align: center;
+    }
+    .separador{
+        margin-bottom: 25px;
+        height: 7px;
+        width: 60px;
+        background-color: #E0B3AD;
+        margin-top: 3px;
+        margin-right: 16%;
+  }
+    img.timeline-imagen{
+        margin-top: 60px;
+    margin-left: 15vw;
+    margin-bottom: 160px;
+  }
+    .h3-propiedades{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.14em;
+    margin-bottom: 35px;
+    padding: 0px;
+  }
+  .barra1{
+    width: 313px;
+    height: 15px;
+    background: linear-gradient(270deg, #BD8C8F 0%, #E0B9BB 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 35px;
+ }
+ .col-xl-10{
+    padding: 0px;
+ }
+ .texto-barra-spanish{
+    padding: 0px;
+    text-align: left;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.14em;
+ }
+ .barra-fondo{
+    width: 313px;
+    height: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 35px;
+ }
+ .barra2{
+    width: 40%;
+    height: 15px;
+    background: linear-gradient(270deg, #BD8C8F 0%, #E0B9BB 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+ }
+ .barra3{
+    width: 15%;
+    height: 15px;
+    background: linear-gradient(270deg, #BD8C8F 0%, #E0B9BB 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+ }
 }
