@@ -120,27 +120,6 @@
     }
   }
 
-  #sobreMiImagen{
-    cursor: pointer;
-    transition: 0.3s;
-}
-#sobreMiImagen:hover {
-    filter:brightness(0.5);
-}
-
-/*texto pop up
-#textoescondido{
-    display: none;
-}
-.textoEscondido{
-    display: none;
-}*/
-
-
-
-
-
-
 
 
 

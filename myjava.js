@@ -37,7 +37,7 @@ img2.onclick = function(){
   }
   img4.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = this.src;
+    modalImg.src = 'CSS/proyectos-vean.jpg';
     captionText.innerHTML = this.alt;
   }
   img5.onclick = function(){
@@ -52,7 +52,7 @@ img2.onclick = function(){
   }
   img7.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = this.src;
+    modalImg.src = 'CSS/proyectos-zonammorpg-2.jpg';
     captionText.innerHTML = this.alt;
   }
   img8.onclick = function(){
