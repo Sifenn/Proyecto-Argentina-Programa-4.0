@@ -15,27 +15,28 @@
 <body>
   <header>
     <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg">
+      <nav id="nav-estado" class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
+        
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <img class="propiedades-botonon-list" src="CSS/list.svg" alt="Boton hamburguesa">
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="collapse navbar-collapse white" id="navbarTogglerDemo01">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#intro">Inicio</a>
+                <a class="nav-link propiedades-link" href="#intro">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#SobreMi">Sobre Mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Educación</a>
+                <a class="nav-link" href="#Educacion">Educacion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#Proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#Contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -45,11 +46,11 @@
 
     <!-- Background image -->
     <div id="intro" class="text-white">
-      <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-2">
-            <div class="col">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2 row-cols-xxl-2">
+            <div class="col-12 col-12 col-sm-12 col-lg-6 col-xxl-6">
               <div class="propiedadesTitular">
                   <div class="row">
-                        <p class="propiedadesParrafo" id="propiedadParrafoHola">
+                        <p id="propiedadParrafoHola">
                             ¡Hola!
                         </p>
                   </div>
@@ -57,12 +58,12 @@
                         <h1 class="propiedadesh1">Soy Esteban</h1>
                   </div>
                   <div class="row">
-                        <p class="propiedadesParrafo" id="propiedadParrafoDM">
+                        <p id="propiedadParrafoDM">
                             DISEÑADOR MULTIMEDIAL
                         </p>
                     </div>
-                  <div class="row">
-                        <p class="propiedadesParrafo" id="propiedadParrafoDescriptivo">
+                  <div class="row col-10 col-sm-10 col-lg-12 col-xxl-12">
+                        <p id="propiedadParrafoDescriptivo">
                             Soy un estudiante de Diseño UX/UI creativo, <br>
                              dedicado a resolver problemas y necesidades de <br>
                               los usuarios a través de productos digitales.
@@ -70,14 +71,11 @@
                   </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-sm-12 col-lg-6 col-xxl-6">
               <div class="propiedadesPerfil">
-                  <div class="row">
-                      <img src="CSS/perfil-1.jpg" class="img-fluid" alt="FotoPerfilEsteban">
+                  <div class="row propiedadPerfil">
+                      <img src="CSS/perfil-1.jpg" alt="FotoPerfilEsteban">
                   </div>
-                    <div class="borde-derecho">
-                      
-                    </div>
               </div>
           </div>
       </div>
@@ -92,14 +90,12 @@
       <!--Section: Content-->
       <section id="SobreMi">
         <div class="row justify-content-center">
-          <div class="col-xl-4">
-            <div class="imagen-2">
-              <img src="CSS/perfil-2.jpg" class="img-fluid" />
-            </div>
+          <div class="col-8 col-sm-6 col-lg-4 col-xxl-4">
+              <img id="sobreMiImagen" src="CSS/perfil-2.jpg" class="imagen-2" class="img-fluid" />
           </div>
 
-          <div class="col-xl-6">
-            <h2><strong>Sobre Mí</strong></h2>
+          <div class="col-10 col-sm-10 col-lg-8 col-xxl-8">
+            <h2>Sobre Mí</h2>
             <div class="separador">
             </div>
             <p class="text-sobremi-1">
@@ -112,17 +108,17 @@
               Soy una persona acostumbrada a trabajar en equipos que se concidera con ciertas características y valores:
             </p>
             <div class="row justify-content-center" >
-              <div class="col-xl-3" class="text-sobremi-3">
-                <p>Flexible</p>
-                <p>Optimista</p>
+              <div class="col-4 col-sm-4 col-lg-3 col-xxl-3">
+                <p class="text-sobremi-3">Flexible</p>
+                <p class="text-sobremi-3">Optimista</p>
               </div>
-              <div class="col-xl-3" class="text-sobremi-3">
-                <p>Cooperativo</p>
-                <p>Creativo</p>
+              <div class="col-4 col-sm-4 col-lg-3 col-xxl-3" class="text-sobremi-3">
+                <p class="text-sobremi-3">Cooperativo</p>
+                <p class="text-sobremi-3">Creativo</p>
               </div>
-              <div class="col-xl-3" class="text-sobremi-3">
-                <p>Autoexigente</p>
-                <p>Responsable</p>
+              <div class="col-4 col-sm-4 col-lg-3 col-xxl-3" class="text-sobremi-3">
+                <p class="text-sobremi-3">Autoexigente</p>
+                <p class="text-sobremi-3">Responsable</p>
               </div>
             </div>
         </div>
@@ -133,18 +129,18 @@
             <h2>Educación</h2>
             <div class="separador" >
             </div>
-            <div class="row-col-xl-1">
+            <div class="row-col-xxl-1">
                 <img class="timeline-imagen" src="CSS/timeline-texto.png" alt="a">
             </div>
             <div class="row">
-              <div class="col-xl-5">
+              <div class="col-12 col-sm-12 col-lg-5 col-xxl-5">
                 <div class="row">
                   <h3 class="h3-propiedades">Idiomas</h3>
                 </div>
                 <div class="row">
                   <p class="texto-barra-spanish">Español</p>
                   <div class="row">
-                    <div class="col-xl-10">
+                    <div class="col-10 col-xxl-10">
                       <div class="barra1"></div>
                     </div>
                   </div>
@@ -152,7 +148,7 @@
                 <div class="row">
                   <p class="texto-barra-spanish">Inglés</p>
                   <div class="row">
-                    <div class="col-xl-10">
+                    <div class="col-xxl-10">
                       <div class="barra-fondo">
                         <div class="barra2"></div>
                       </div>
@@ -162,7 +158,7 @@
                 <div class="row">
                   <p class="texto-barra-spanish">Francés</p>
                   <div class="row">
-                    <div class="col-xl-10">
+                    <div class="col-xxl-10">
                       <div class="barra-fondo">
                         <div class="barra3"></div>
                       </div>   
@@ -170,34 +166,42 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-7">
+              <div class="col-12 col-sm-12 col-lg-7 col-xxl-7">
                 <h3 class="h3-propiedades"">Habilidades</h3>
                 <div class="row">
-                  <div class="col-xl-3">
-                    <img src="CSS/figma-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/figma-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Figma</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/adobexd-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/adobexd-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">AdobeXd</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/miro-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/miro-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Miro</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/ai-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/ai-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Illustrator</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xl-3">
-                    <img src="CSS/ps-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/ps-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Photoshop</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/pr-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/pr-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Premiere</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/ae-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/ae-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">After Effects</p>
                   </div>
-                  <div class="col-xl-3">
-                    <img src="CSS/proccessing-barra.png" alt="">
+                  <div class="col-6 col-sm-6 col-lg-3 col-xxl-3">
+                    <img src="CSS/proccessing-barra.png" alt="" class="propiedades-imgs-herramientas">
+                    <p class="texto-imgs-herramientas">Proccessing</p>
                   </div>
                 </div>
               </div>
@@ -206,66 +210,87 @@
       </section>
             <!--Section: Content-->
       <section id="Proyectos">
+        <div class="row justify-content-center">
+          <h2 class="h2Propiedades">Proyectos</h2>
+          <div class="separador2" >
+          </div>
+          <p class="texto-proyectos">Actualmente trabajo en proyectos relacionados al diseño de páginas web, algunos ejemplos de trabajos de diseño:</p>
+        </div>
         <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+          <div class="col-sm-4 col-lg-4 col-xxl-4">
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple">
+                <img id="miImagen" src="CSS/proyectos-fefu-instrumental.jpg" class="img-fluid" />
+                <!-- <div id="textoescondido" class="textoEscondido">
+                  <p>jablapvada</p>
+                </div> -->
                 <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple">
+                <img id="miImagen2" src="CSS/proyectos-galaxia.jpg" class="img-fluid" />
+                <a href="#!">
+                </a>
+              </div>
+            </div>
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple">
+                <img id="miImagen3" src="CSS/proyectos-proteams.jpg" class="img-fluid" />
+                <a href="#!">
+                </a>
               </div>
             </div>
           </div>
       
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
+          <div class="col-sm-4 col-lg-4 col-xxl-4">
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" >
+                <img id="miImagen4" src="CSS/proyectos-vean.jpg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img id="miImagen5" src="CSS/proyectos-destruccioncivica.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img id="miImagen6" src="CSS/proyectos-todoesunjuego.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
               </div>
             </div>
           </div>
       
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
+          <div class="col-sm-4 col-lg-4 col-xxl-4">
+            <div class="card proyectos-imagenes">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+                <img id="miImagen7" src="CSS/proyectos-zonammorpg.jpg" class="img-fluid" />
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+            <div class="card proyectos-imagenes">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img id="miImagen8"src="CSS/proyectos-poema.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </div>
  
 
@@ -273,47 +298,66 @@
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="bg-light text-lg-start">
-    <div class="py-4 text-center">
-      <a role="button" class="btn btn-primary btn-lg m-2"
-        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
-        Learn Bootstrap 5
-      </a>
-      <a role="button" class="btn btn-primary btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank">
-        Download MDB UI KIT
-      </a>
-    </div>
-
-    <hr class="m-0" />
-
-    <div class="text-center py-4 align-items-center">
-      <p>Follow MDB on social media</p>
-      <a href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" class="btn btn-primary m-1" role="button"
-        rel="nofollow" target="_blank">
-        <i class="fab fa-youtube"></i>
-      </a>
-      <a href="https://www.facebook.com/mdbootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://twitter.com/MDBootstrap" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/mdbootstrap/mdb-ui-kit" class="btn btn-primary m-1" role="button" rel="nofollow"
-        target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+  <section id="Contacto">
+    <footer class="bg-black text-lg-start">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-10 col-lg-8 col-xxl-8">
+          <h2 class="propiedades-contacto-titulo">Contacto</h2>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6 col-xxl-3 margen-contactos">
+              <div class="row">
+                <div class="col-2 col-sm-2 col-lg-2 col-xxl-2">
+                  <img src="CSS/discord.svg" alt="">
+                </div>
+                <div class="col-10 col-sm-9 col-lg-9 col-xxl-8">
+                  <p class="texto-contacto">Stifen#7340</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 col-xxl-3 margen-contactos">
+              <div class="row">
+                <div class="col-2 col-sm-2 col-lg-2 col-xxl-2">
+                  <img src="CSS/email.svg" alt="">
+                </div>
+                <div class="col-10 col-sm-9 col-lg-9 col-xxl-8">
+                  <p class="texto-contacto">estebanmsegui@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="row col-12 col-sm-6 col-lg-6 col-xxl-3 margen-contactos">
+              <div class="row">
+                <div class="col-2 col-sm-2 col-lg-2 col-xxl-2">
+                  <a href="https://www.instagram.com/segui_esteban/"  role="button" rel="nofollow"
+                  target="_blank">
+                  <img src="CSS/instagram.svg" alt="">
+                </a>
+                </div>
+                <div class="col-10 col-sm-9 col-lg-9 col-xxl-8">
+                  <p class="texto-contacto">segui_esteban</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 col-xxl-3 margen-contactos">
+              <div class="row">
+                <div class="col-2 col-sm-2 col-lg-2 col-xxl-2">
+                  <img src="CSS/telegram.svg" alt="">
+                </div>
+                <div class="col-10 col-sm-9 col-lg-9 col-xxl-8">
+                  <p class="texto-contacto">+54 9 221 670-7570</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="/prueba.js"></script>
+    <script src="myjava.js"></script>
 </body>
 </html>
